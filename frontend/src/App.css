@@ -1,0 +1,26 @@
+/* Sidebar Button Design */
+.sidebar .menu li a {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 10px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 8px 0;
+  transition: all 0.3s;
+}
+.sidebar .menu li a i {
+  margin-right: 12px;
+  font-size: 18px;
+}
+.sidebar .menu li a:hover {
+  background: #fff5f5;
+  color: #FF6B6B;
+}
+.sidebar .menu li a.active {
+  background: #FF6B6B;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(255, 107, 107, 0.2);
+}

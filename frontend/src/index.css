@@ -1,0 +1,33 @@
+/* Reset and box-sizing */
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Set the background gradient and font globally */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 20px;
+}
+
+/* Remove global .container, input, and button styles to avoid conflicts with card design */
+/* .container, .container > h1, .container > form, .container div, .container input, .container input::placeholder, button {
+  all: unset;
+} */
+
+/* You can keep other global styles as needed, but avoid overriding the card styles */
